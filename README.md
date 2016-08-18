@@ -24,7 +24,7 @@
 ## 常用参数
 > * columns
         - key:'id'
-        - name:'ID'
+        - name:'ID' 
         - resizable:true(允许拖拽宽度)
         - locked:true(冻结列，水平滚动是锁定)
 ## 参数配置
