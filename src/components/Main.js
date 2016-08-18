@@ -25,6 +25,7 @@ function createRows(numberOfRows) {
     _rows.push({
 
       name: '张三',
+      id:Math.random().toString().slice(2,8),
       day1: dayType[Math.floor(Math.random() * 3)],
       day2: dayType[Math.floor(Math.random() * 3)],
       day3: dayType[Math.floor(Math.random() * 3)],
@@ -80,11 +81,19 @@ class AppComponent extends React.Component {
     }
     this.setState({ rows: rows });
   }
-
+handleClick(args){
+  debugger
+  console.log('提交数据:'+args.toJSON())
+}
  
   render() {
 
     var columns = [
+      {
+        key:'id',
+        name:'ID'
+
+      },
 
       {
         key: 'name',
@@ -120,8 +129,12 @@ class AppComponent extends React.Component {
       }
 
     ]
+    let rows =this.state.rows
     return (
+      <div>
+    
       <ReactDataGrid
+      ref ='myGrid'
         columns={columns}
         // onDragHandleDoubleClick={this.handleDragHandleDoubleClick.bind(this)} //双击
         onCellsDragged={this.handleCellDrag.bind(this) }
@@ -130,6 +143,10 @@ class AppComponent extends React.Component {
         rowGetter={this.rowGetter.bind(this) }
         rowsCount={this.state.rows.length}
         minHeight={500} />
+        <button className='submit-btn' onClick={this.handleClick.bind(this,rows)}> 
+        提交
+        </button>
+        </div>
     );
   }
 }

@@ -1,3 +1,15 @@
+.submit-btn{
+  float:right;
+  margin-right:100px;
+      color: #fff;
+    font-size: 9pt;
+    line-height: 20px;
+    padding: 3px 10px;
+    min-width: 30px;
+    background-color: #1687d9;
+    font-family: Helvetica Neue,Tahoma,PingFang SC,Hiragino Sans GB,SimSun,STHeitiSC,sans-serif;
+}
+
 .cm-s-solarized-light {
   background-color: #f8f5ec;
   color: #637c84;

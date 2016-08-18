@@ -28,3 +28,11 @@
     - resizable:true(允许拖拽宽度)
     - locked:true(冻结列，水平滚动是锁定)
 
+##　demo 
+![demo](./images/demo.png)
+
+## 提交数据格式
+![数据格式](./images/prams.png)
+
+
+
