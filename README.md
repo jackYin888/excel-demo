@@ -23,14 +23,19 @@
 
 ## 常用参数
 > * columns
-        - key:'id'
-        - name:'ID'
-        - resizable:true(允许拖拽宽度)
-        - locked:true(冻结列，水平滚动是锁定)
+      - key:'id'
+      - name:'ID'
+      - resizable:true(允许拖拽宽度)
+      - locked:true(冻结列，水平滚动是锁定)
+        
+
 ## 参数配置
 ![列参数](./images/columns.png)
+
+
 ##　demo 
 ![demo](./images/demo.png)
+
 
 ## 提交数据格式
 ![数据格式](./images/prams.png)
