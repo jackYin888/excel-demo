@@ -2,8 +2,8 @@
 基于[react-data-grid](https://github.com/adazzle/react-data-grid)的开发的类excel demo
 
 ##用法
- > npm install 
-   npm start
+ > npm install <br/>
+ > npm start
 
 ## 特性
 >   * 可调整、冻结列宽
