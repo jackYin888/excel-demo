@@ -81,18 +81,7 @@ class AppComponent extends React.Component {
     this.setState({ rows: rows });
   }
 
-  // handleDragHandleDoubleClick(e) {
-  //   debugger
-  //   var rows = this.state.rows.map(function(r){
-  //     return Object.assign({}, r);
-  //   });
-  //   var column = columns[e.idx];
-  //   for (var i = e.rowIdx; i <= rows.length - 1; i++){
-  //     var rowToUpdate = rows[i];
-  //     rowToUpdate[column.key] = e.rowData[column.key];
-  //   }
-  //   this.setState({rows:rows});
-  // }
+ 
   render() {
 
     var columns = [
