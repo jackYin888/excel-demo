@@ -1,4 +1,4 @@
-@import url('https://npmcdn.com/react-select/dist/react-select.css');
+@import url('https://unpkg.com/react-select/dist/react-select.css');
 
 .react-grid-Container {
   clear: both;
